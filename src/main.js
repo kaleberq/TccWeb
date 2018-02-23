@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
+import Axios from 'axios'
 import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Vuetify, {
@@ -12,11 +13,15 @@ Vue.use(Vuetify, {
     secondary: '#b0bec5',
     accent: '#8c9eff',
     error: '#b71c1c',
-    padrao: 'red'
+    azul: '#00BFFF',
+    cinza: '#556B2F',
+    branco: '#ffffff',
+    preto: '#000000'
   }
 })
 
 Vue.config.productionTip = false
+Vue.prototype.$http = Axios
 
 /* eslint-disable no-new */
 new Vue({

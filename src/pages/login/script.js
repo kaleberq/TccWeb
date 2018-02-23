@@ -11,5 +11,15 @@ export default {
     }
   },
   methods: {
+    verificaAutanticacao(){
+      let url = 'http://localhost:8082/auth'
+      let data = {
+        email: this.usuario,
+        senha: this.senha
+      }
+       this.$http.post(url,data).then((res) => {
+        console.log(res)
+       })
+    }
   }
 }
