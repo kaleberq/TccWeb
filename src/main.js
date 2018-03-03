@@ -16,7 +16,8 @@ Vue.use(Vuetify, {
     azul: '#00BFFF',
     cinza: '#556B2F',
     branco: '#ffffff',
-    preto: '#000000'
+    preto: '#000000',
+    vermelho: '#ff0000'
   }
 })
 

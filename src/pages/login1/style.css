@@ -1,0 +1,22 @@
+#login{
+    background: url(../../assets/transitoo.png);
+    background-size: cover;
+    font-family: Sans-serif;
+    height: 100%;
+    background: #ff1a1a;
+}
+.loginBox{
+    /*transform: translate(-50%,-50%);*/
+    
+    height: 50%;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 0px 40px;
+    padding-bottom:60px
+
+;
+}

@@ -1,11 +1,11 @@
 <template>
   <v-container fluid id="login">
-    <v-slide-y-transition mode="out-in">
-      <v-layout class="loginBox" column align-center>
+    <v-layout align-center justify-center>
+      <v-card class="loginBox" column align-center>
         <h2> Login</h2>
         <v-form>
-          <v-text-field name="usuario" label="Usuário" color="branco" v-model="usuario" type="text"></v-text-field>
-          <v-text-field name="senha" label="Senha" color="branco" v-model="senha"
+          <v-text-field name="usuario" label="Usuário" v-model="usuario" type="text"></v-text-field>
+          <v-text-field name="senha" label="Senha" v-model="senha"
             min="8"
             :append-icon="e1 ? 'visibility' : 'visibility_off'"
             :append-icon-cb="() => (e1 = !e1)"
@@ -16,9 +16,9 @@
            <v-btn round dark @click="verificaAutanticacao()">Entrar</v-btn>
           </div>
         </v-form>
-      </v-layout>
-    </v-slide-y-transition>
-    <!--<img src="@/assets/carr.png" alt="Vuetify.js" class="car">-->
+      </v-card>
+    </v-layout>
+    <!--<img src="@/assets/logo_policia.png" alt="Vuetify.js" class="logo_policia">-->
   </v-container>
 </template>
 <script src="./script.js"></script>
