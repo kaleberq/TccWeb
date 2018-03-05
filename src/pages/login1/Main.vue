@@ -1,10 +1,8 @@
-<style scoped src="./style.css">
-</style>
+<style scoped src="./style.css"></style>
 <template>
  <div id="app">
   <v-app id="inspire">
-      <v-toolbar  color="indigo" dark app>
-     
+    <v-toolbar color="cinza" app>
       <v-toolbar-title >POLÍCIA MILITAR</v-toolbar-title>
     </v-toolbar>
     <v-content>
@@ -12,7 +10,7 @@
         <v-layout align-center justify-center>
           <v-flex xs12 sm8 md4>
             <v-card class="loginBox">
-              
+              <img src="@/assets/brasao.png" alt="Vuetify.js" class="brasao">
               <v-card-text>
                 <h2 style="padding-bottom:60px; padding-top: 10px"> Login</h2>
                 <v-form>
@@ -25,22 +23,20 @@
             counter>
                  </v-text-field>
                 </v-form>
-              </v-card-text>
-              
+              </v-card-text>    
                 <v-spacer></v-spacer>
                 <div class="text-md-center" style="padding-top: 0px">
-                    <v-btn  color="vermelho">Login</v-btn>
+                    <v-btn  class="login-cor" color="cinza">Entrar</v-btn>
                 </div>
-              
             </v-card>
           </v-flex>
         </v-layout>
       </v-container>
     </v-content>
-    <v-footer color="indigo" app>
+    <v-footer color="cinza" app>
       <span class="white--text"> by Kalebe Misael</span>
     </v-footer>
   </v-app>
-</div>
+ </div>
 </template>
 <script src="./script.js"></script>

@@ -13,11 +13,12 @@ Vue.use(Vuetify, {
     secondary: '#b0bec5',
     accent: '#8c9eff',
     error: '#b71c1c',
-    azul: '#00BFFF',
+    azul: 'blue',
     cinza: '#556B2F',
     branco: '#ffffff',
     preto: '#000000',
-    vermelho: '#ff0000'
+    vermelho: 'red',
+    cinza: '#808080'
   }
 })
 
